@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="img/img-01.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>imagem seila</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/img-02.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>imagem seila</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/img-03.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>imagem seila</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container  mt-5">
+        <div class="row">
+            <!-- Cards com informações sobre pássaros -->
+            <div class="col-md-4 mb-3">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/26/21/24/birds-5097229_1280.jpg" alt="">
+                    <h4 class="card-title display-6">Periquito-australiano</h4>
+                    <p>O periquito-australiano (Melopsittacus undulatus) é uma das aves mais populares no mundo, especialmente como animal de estimação.</p>
+                    <a href="https://www.petz.com.br/blog/especies/tudo-sobre-periquito-australiano/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.pixabay.com/photo/2018/02/16/22/08/bird-3158784_1280.jpg" alt="">
+                    <h4 class="card-title display-6">Garrincho-comum</h4>
+                    <p>O garrincho-comum (Troglodytes musculus) é um pequeno pássaro muito comum em áreas urbanas e rurais.</p>
+                    <a href="https://www.passaro.org/corruira/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_640.jpg" alt="">
+                    <h4 class="card-title display-6">Melro-azul</h4>
+                    <p>O melro-azul (Monticola solitarius) é uma ave pertencente à família Turdidae, famosa por sua bela coloração e por seus hábitos incomuns.</p>
+                    <a href="https://www.passaro.org/melro-azul/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/28/15/14/ai-generated-8602228_640.jpg" alt="">
+                    <h4 class="card-title display-6">saíra-andina-barbanegra</h4>
+                    <p>A saíra-andina-barbanegra (nome científico: Anisognathus notabilis) é uma ave da família Thraupidae, conhecida pela sua plumagem colorida.</p>
+                    <a href="https://www.passaro.org/melro-azul/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-bg-dark">
+                    <img src="./img/ave-02.jpg" alt="">
+                    <h4 class="card-title display-6">peneireiro-euroasiático</h4>
+                    <p>O peneireiro-euroasiático (nome científico: Falco tinnunculus) é uma pequena ave de rapina da família Falconidae.</p>
+                    <a href="https://www.passaro.org/melro-azul/">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-bg-dark">
+                    <img src="./img/ave-03.jpg" alt="">
+                    <h4 class="card-title display-6">colhereiro-americano</h4>
+                    <p>O colhereiro-americano (nome científico: Platalea ajaja), também conhecido como colhereiro-rosado, é uma ave aquática da família Threskiornithidae.</p>
+                    <a href="https://www.passaro.org/melro-azul/">Saiba Mais</a>
+                </div>
+            </div>
+            <!-- Continue as demais cards... -->
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
